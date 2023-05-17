@@ -17,6 +17,7 @@
         <module name="consumerServer12001" />
         <module name="eurekaServer13000" />
         <module name="eurekaServer13001" />
+        <module name="gateWay14000" />
         <module name="demo1" />
         <module name="demo2" />
       </profile>
@@ -24,14 +25,12 @@
     <bytecodeTargetLevel>
       <module name="demo12" target="19" />
       <module name="demo3" target="20" />
-      <module name="GateWay" target="19" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="GateWay" options="-parameters" />
-      <module name="consumerServer12000" options="-parameters" />
-      <module name="consumerServer12001" options="-parameters" />
+      <module name="consumerServer12000" options="" />
+      <module name="consumerServer12001" options="" />
       <module name="demo" options="-parameters" />
       <module name="demo1" options="-parameters" />
       <module name="demo1-1" options="-parameters" />
@@ -40,10 +39,11 @@
       <module name="demo2" options="-parameters" />
       <module name="demo3" options="-parameters" />
       <module name="demo4" options="-parameters" />
-      <module name="eurekaServer13000" options="-parameters" />
-      <module name="eurekaServer13001" options="-parameters" />
-      <module name="providerServer11000" options="-parameters" />
-      <module name="providerServer11001" options="-parameters" />
+      <module name="eurekaServer13000" options="" />
+      <module name="eurekaServer13001" options="" />
+      <module name="gateWay14000" options="" />
+      <module name="providerServer11000" options="" />
+      <module name="providerServer11001" options="" />
     </option>
   </component>
 </project>
