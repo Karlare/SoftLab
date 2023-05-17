@@ -2,7 +2,7 @@ server:
   port: 12001
 spring:
   application:
-    name: consumer-server2
+    name: consumer-server
 
 #eureka配置
 eureka:

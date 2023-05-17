@@ -16,14 +16,15 @@
         <module name="consumerServer12000" />
         <module name="consumerServer12001" />
         <module name="eurekaServer13000" />
-        <module name="GateWay" />
         <module name="eurekaServer13001" />
         <module name="demo1" />
         <module name="demo2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo3" target="19" />
+      <module name="demo12" target="19" />
+      <module name="demo3" target="20" />
+      <module name="GateWay" target="19" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -35,6 +36,7 @@
       <module name="demo1" options="-parameters" />
       <module name="demo1-1" options="-parameters" />
       <module name="demo10" options="-parameters" />
+      <module name="demo12" options="-parameters" />
       <module name="demo2" options="-parameters" />
       <module name="demo3" options="-parameters" />
       <module name="demo4" options="-parameters" />
