@@ -17,7 +17,17 @@
         <module>eurekaServer13000</module>
         <module>eurekaServer13001</module>
         <module>gateWay14000</module>
+        <module>configServer15000</module>
+        <module>configServer15001</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>3.0.6</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
